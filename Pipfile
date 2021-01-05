@@ -9,6 +9,7 @@ uvicorn = {extras = ["standard"], version = "*"}
 sqlalchemy = "*"
 psycopg2 = "*"
 requests = "*"
+aiohttp = "*"
 
 [dev-packages]
 
