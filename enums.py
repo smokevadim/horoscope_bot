@@ -1,7 +1,7 @@
-from django.db import models
+from enum import Enum
 
 
-class Zodiac(models.IntegerChoices):
+class Zodiac(Enum):
     Aries = 1  # The Ram
     Taurus = 2  # The Bull
     Gemini = 3  # The Twins
